@@ -1,12 +1,12 @@
 {
-  "ts": "2026-09-02T21:48:42.604239+00:00",
+  "ts": "2026-09-02T21:51:14.077419+00:00",
   "status_feed": "live",
   "oracle": {
-    "git_sha": "b640e4d",
+    "git_sha": "ccacc4d",
     "image": "frank-backend:k3s",
     "backend_ready": "1/1",
-    "node_disk_used": "52%",
-    "node_load": "0.07 0.09 0.15"
+    "node_disk_used": "53%",
+    "node_load": "0.83 0.45 0.27"
   },
   "pods": [
     {
@@ -16,10 +16,10 @@
       "restarts": 0
     },
     {
-      "name": "frank-backend-real-76bd6fcdf8-t988n",
+      "name": "frank-backend-real-6fb946bb76-67sng",
       "phase": "Running",
       "ready": true,
-      "restarts": 1
+      "restarts": 0
     },
     {
       "name": "ollama-684769c58d-zg7jd",
@@ -48,15 +48,15 @@
   ],
   "lan_gpu": "down",
   "agentops": {
-    "ts": "2026-09-02T21:48:39.996265+00:00",
+    "ts": "2026-09-02T21:51:12.459350+00:00",
     "llm": {
       "calls_24h": 200,
-      "ok": 170,
-      "success_rate": 0.85,
+      "ok": 172,
+      "success_rate": 0.86,
       "top": {
-        "dashscope": 149,
+        "dashscope": 150,
         "direct": 29,
-        "ollama": 21,
+        "ollama": 20,
         "xai": 1
       }
     },
@@ -94,10 +94,10 @@
       },
       "grok_signals_7d": {
         "ok": true,
-        "count": 2488,
+        "count": 2498,
         "buy": 0,
         "sell": 0,
-        "hold": 2488,
+        "hold": 2498,
         "cleared_for_live": 0,
         "avg_confidence": 0.463,
         "window_days": 7
@@ -109,8 +109,8 @@
       "monthly_cap_usd": 30.0,
       "daily_cap_usd": 5.0,
       "ads_live": false,
-      "account_funded": true,
-      "graph_last_30d": []
+      "account_funded": null,
+      "graph_last_30d": null
     },
     "content": {
       "posts_24h": 71,
