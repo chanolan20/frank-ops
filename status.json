@@ -1,46 +1,46 @@
 {
-  "ts": "2026-09-02T20:01:45.639881+00:00",
-  "status_feed": "seed \u2014 Oracle cron not yet installed",
+  "ts": "2026-09-02T21:07:22.460860+00:00",
+  "status_feed": "live",
   "oracle": {
-    "git_sha": "b640e4db",
+    "git_sha": "b640e4d",
     "image": "frank-backend:k3s",
     "backend_ready": "1/1",
-    "node_disk_used": "51%",
-    "note": "seed data from audit 2026-09-02"
+    "node_disk_used": "52%",
+    "node_load": "0.09 0.82 0.88"
   },
   "pods": [
     {
-      "name": "frank-backend-real",
+      "name": "frank-backend-5f5b5847f7-fb8p5",
       "phase": "Running",
       "ready": true,
       "restarts": 0
     },
     {
-      "name": "postgres",
+      "name": "frank-backend-real-76bd6fcdf8-t988n",
+      "phase": "Running",
+      "ready": true,
+      "restarts": 1
+    },
+    {
+      "name": "ollama-684769c58d-zg7jd",
       "phase": "Running",
       "ready": true,
       "restarts": 0
     },
     {
-      "name": "redis",
+      "name": "postgres-54c59867c9-6t649",
       "phase": "Running",
       "ready": true,
       "restarts": 0
     },
     {
-      "name": "ollama",
+      "name": "redis-55d555778c-4dm8g",
       "phase": "Running",
       "ready": true,
       "restarts": 0
     },
     {
-      "name": "wireguard",
-      "phase": "Running",
-      "ready": true,
-      "restarts": 0
-    },
-    {
-      "name": "frank-backend",
+      "name": "wireguard-k4nkr",
       "phase": "Running",
       "ready": true,
       "restarts": 0
@@ -48,36 +48,71 @@
   ],
   "lan_gpu": "down",
   "agentops": {
+    "ts": "2026-09-02T21:07:21.219799+00:00",
     "llm": {
-      "calls_24h": 200,
-      "success_rate": 0.29
+      "calls_24h": 0,
+      "ok": 0,
+      "success_rate": null,
+      "top": {}
     },
     "cost": {
-      "today_usd": 0
+      "today_usd": null,
+      "budget": {
+        "model_call": 5.0,
+        "image_gen": 2.0,
+        "voice": 1.0,
+        "trade": 0.0,
+        "publish": 0.0,
+        "total": 8.0,
+        "model_call_openai": 2.0,
+        "model_call_gemini": 1.0,
+        "model_call_openrouter": 1.0,
+        "model_call_kimi": 0.5,
+        "model_call_deepseek": 0.3,
+        "model_call_anthropic": 2.0
+      },
+      "over": false
     },
     "trading": {
-      "live": true,
-      "live_pnl": 0,
-      "daily_loss": 0,
+      "mode": "paper",
+      "live": false,
+      "killed": false,
+      "live_pnl": 0.0,
+      "paper_pnl": 0.0,
+      "daily_loss": 0.0,
       "max_daily_loss": 5.0,
       "trades_today": 0,
+      "caps": {
+        "per_trade": 1.0,
+        "exposure": 10.0,
+        "daily_loss": 5.0
+      },
+      "grok_signals_7d": {
+        "ok": true,
+        "count": 0
+      },
       "grok_open_positions": []
     },
     "ads": {
-      "ads_live": false,
-      "month_committed_usd": 0,
+      "month_committed_usd": 0.0,
       "monthly_cap_usd": 30.0,
-      "account_funded": true
+      "daily_cap_usd": 5.0,
+      "ads_live": false,
+      "account_funded": true,
+      "graph_last_30d": []
     },
     "content": {
-      "posts_24h": 62,
-      "ok": 33
+      "posts_24h": 0
     },
     "eval": {
-      "pre_publish_avg_composite": 0.634
+      "pre_publish_avg_composite": null,
+      "pre_publish_scored": 0,
+      "pre_publish_gate_active": 0
     },
     "failures": {
-      "total": 0
+      "total": null,
+      "by_kind": {},
+      "recent_errors": null
     }
   }
 }
