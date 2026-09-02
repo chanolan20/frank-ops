@@ -1,12 +1,12 @@
 {
-  "ts": "2026-09-02T22:45:18.227257+00:00",
+  "ts": "2026-09-02T22:48:18.231049+00:00",
   "status_feed": "live",
   "oracle": {
     "git_sha": "ccacc4d",
     "image": "frank-backend:k3s",
     "backend_ready": "1/1",
     "node_disk_used": "53%",
-    "node_load": "0.06 0.20 0.42"
+    "node_load": "0.10 0.15 0.35"
   },
   "pods": [
     {
@@ -48,16 +48,16 @@
   ],
   "lan_gpu": "down",
   "agentops": {
-    "ts": "2026-09-02T22:45:15.538177+00:00",
+    "ts": "2026-09-02T22:48:15.959539+00:00",
     "llm": {
       "calls_24h": 200,
       "ok": 176,
       "success_rate": 0.88,
       "top": {
-        "dashscope": 158,
-        "direct": 23,
-        "ollama": 17,
-        "xai": 2
+        "dashscope": 160,
+        "direct": 20,
+        "ollama": 19,
+        "xai": 1
       }
     },
     "cost": {
@@ -94,10 +94,10 @@
       },
       "grok_signals_7d": {
         "ok": true,
-        "count": 2680,
+        "count": 2690,
         "buy": 0,
         "sell": 0,
-        "hold": 2680,
+        "hold": 2690,
         "cleared_for_live": 0,
         "avg_confidence": 0.463,
         "window_days": 7
@@ -113,32 +113,32 @@
       "graph_last_30d": []
     },
     "content": {
-      "posts_24h": 73,
-      "ok": 40,
+      "posts_24h": 63,
+      "ok": 36,
       "by_platform": {
-        "linkedin": {
-          "ok": 0,
-          "fail": 10
-        },
-        "telegram": {
-          "ok": 6,
-          "fail": 1
-        },
-        "discord": {
-          "ok": 0,
-          "fail": 13
-        },
-        "buffer": {
-          "ok": 2,
-          "fail": 3
-        },
         "facebook": {
-          "ok": 15,
+          "ok": 14,
           "fail": 3
         },
         "instagram": {
           "ok": 17,
-          "fail": 3
+          "fail": 2
+        },
+        "buffer": {
+          "ok": 0,
+          "fail": 1
+        },
+        "linkedin": {
+          "ok": 0,
+          "fail": 9
+        },
+        "telegram": {
+          "ok": 5,
+          "fail": 1
+        },
+        "discord": {
+          "ok": 0,
+          "fail": 11
         }
       }
     },
