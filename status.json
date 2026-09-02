@@ -1,12 +1,12 @@
 {
-  "ts": "2026-09-02T22:00:16.787984+00:00",
+  "ts": "2026-09-02T22:03:14.862479+00:00",
   "status_feed": "live",
   "oracle": {
     "git_sha": "ccacc4d",
     "image": "frank-backend:k3s",
     "backend_ready": "1/1",
     "node_disk_used": "53%",
-    "node_load": "0.10 0.18 0.19"
+    "node_load": "0.10 0.17 0.18"
   },
   "pods": [
     {
@@ -48,7 +48,7 @@
   ],
   "lan_gpu": "down",
   "agentops": {
-    "ts": "2026-09-02T22:00:12.955172+00:00",
+    "ts": "2026-09-02T22:03:12.952322+00:00",
     "llm": {
       "calls_24h": 200,
       "ok": 166,
@@ -56,9 +56,9 @@
       "top": {
         "dashscope": 140,
         "direct": 29,
-        "ollama": 26,
+        "ollama": 25,
         "nvidia": 3,
-        "xai": 1,
+        "xai": 2,
         "airllm": 1
       }
     },
@@ -96,10 +96,10 @@
       },
       "grok_signals_7d": {
         "ok": true,
-        "count": 2529,
+        "count": 2540,
         "buy": 0,
         "sell": 0,
-        "hold": 2529,
+        "hold": 2540,
         "cleared_for_live": 0,
         "avg_confidence": 0.462,
         "window_days": 7
@@ -115,7 +115,7 @@
       "graph_last_30d": []
     },
     "content": {
-      "posts_24h": 73,
+      "posts_24h": 75,
       "ok": 42,
       "by_platform": {
         "buffer": {
@@ -136,17 +136,17 @@
         },
         "facebook": {
           "ok": 15,
-          "fail": 2
+          "fail": 3
         },
         "instagram": {
           "ok": 17,
-          "fail": 2
+          "fail": 3
         }
       }
     },
     "eval": {
-      "pre_publish_avg_composite": 0.654,
-      "pre_publish_scored": 68,
+      "pre_publish_avg_composite": 0.653,
+      "pre_publish_scored": 69,
       "pre_publish_gate_active": 0
     },
     "failures": {
