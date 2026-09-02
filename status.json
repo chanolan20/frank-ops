@@ -1,0 +1,83 @@
+{
+  "ts": "2026-09-02T20:01:45.639881+00:00",
+  "status_feed": "seed \u2014 Oracle cron not yet installed",
+  "oracle": {
+    "git_sha": "b640e4db",
+    "image": "frank-backend:k3s",
+    "backend_ready": "1/1",
+    "node_disk_used": "51%",
+    "note": "seed data from audit 2026-09-02"
+  },
+  "pods": [
+    {
+      "name": "frank-backend-real",
+      "phase": "Running",
+      "ready": true,
+      "restarts": 0
+    },
+    {
+      "name": "postgres",
+      "phase": "Running",
+      "ready": true,
+      "restarts": 0
+    },
+    {
+      "name": "redis",
+      "phase": "Running",
+      "ready": true,
+      "restarts": 0
+    },
+    {
+      "name": "ollama",
+      "phase": "Running",
+      "ready": true,
+      "restarts": 0
+    },
+    {
+      "name": "wireguard",
+      "phase": "Running",
+      "ready": true,
+      "restarts": 0
+    },
+    {
+      "name": "frank-backend",
+      "phase": "Running",
+      "ready": true,
+      "restarts": 0
+    }
+  ],
+  "lan_gpu": "down",
+  "agentops": {
+    "llm": {
+      "calls_24h": 200,
+      "success_rate": 0.29
+    },
+    "cost": {
+      "today_usd": 0
+    },
+    "trading": {
+      "live": true,
+      "live_pnl": 0,
+      "daily_loss": 0,
+      "max_daily_loss": 5.0,
+      "trades_today": 0,
+      "grok_open_positions": []
+    },
+    "ads": {
+      "ads_live": false,
+      "month_committed_usd": 0,
+      "monthly_cap_usd": 30.0,
+      "account_funded": true
+    },
+    "content": {
+      "posts_24h": 62,
+      "ok": 33
+    },
+    "eval": {
+      "pre_publish_avg_composite": 0.634
+    },
+    "failures": {
+      "total": 0
+    }
+  }
+}
