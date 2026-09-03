@@ -1,12 +1,12 @@
 {
-  "ts": "2026-09-03T16:42:36.542342+00:00",
+  "ts": "2026-09-03T16:45:40.894077+00:00",
   "status_feed": "live",
   "oracle": {
     "git_sha": "e1d70bd",
     "image": "frank-backend:k3s",
     "backend_ready": "1/1",
     "node_disk_used": "53%",
-    "node_load": "0.14 0.27 0.62"
+    "node_load": "0.14 0.23 0.54"
   },
   "pods": [
     {
@@ -48,7 +48,7 @@
   ],
   "lan_gpu": "down",
   "agentops": {
-    "ts": "2026-09-03T16:42:33.257543+00:00",
+    "ts": "2026-09-03T16:45:34.030126+00:00",
     "llm": {
       "calls_24h": 200,
       "ok": 196,
