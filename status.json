@@ -1,12 +1,12 @@
 {
-  "ts": "2026-09-03T15:57:26.357745+00:00",
+  "ts": "2026-09-03T16:00:29.819235+00:00",
   "status_feed": "live",
   "oracle": {
     "git_sha": "e1d70bd",
     "image": "frank-backend:k3s",
     "backend_ready": "1/1",
     "node_disk_used": "53%",
-    "node_load": "0.21 0.35 0.63"
+    "node_load": "0.37 0.33 0.56"
   },
   "pods": [
     {
@@ -48,7 +48,7 @@
   ],
   "lan_gpu": "down",
   "agentops": {
-    "ts": "2026-09-03T15:57:22.956200+00:00",
+    "ts": "2026-09-03T16:00:22.970355+00:00",
     "llm": {
       "calls_24h": 200,
       "ok": 197,
@@ -111,8 +111,8 @@
       "monthly_cap_usd": 30.0,
       "daily_cap_usd": 5.0,
       "ads_live": false,
-      "account_funded": null,
-      "graph_last_30d": null
+      "account_funded": true,
+      "graph_last_30d": []
     },
     "content": {
       "posts_24h": 146,
