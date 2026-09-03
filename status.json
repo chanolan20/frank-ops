@@ -1,5 +1,5 @@
 {
-  "ts": "2026-09-03T06:15:21.785452+00:00",
+  "ts": "2026-09-03T06:18:21.943853+00:00",
   "status_feed": "live",
   "oracle": {
     "git_sha": "Failed to add the host to the list of known hosts (/Users/og/.ssh/known_hosts).\nLoad key \"/Users/og/.ssh/oci-frank\": Permission denied\nubuntu@129.213.148.144: Permission denied (publickey).",
@@ -27,10 +27,10 @@
       },
       "grok_signals_7d": {
         "ok": true,
-        "count": 4265,
+        "count": 4277,
         "buy": 25,
         "sell": 0,
-        "hold": 4240,
+        "hold": 4252,
         "cleared_for_live": 25,
         "avg_confidence": 0.451,
         "window_days": 7
