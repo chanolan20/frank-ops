@@ -1,12 +1,12 @@
 {
-  "ts": "2026-09-03T04:45:22.891531+00:00",
+  "ts": "2026-09-03T04:48:23.992444+00:00",
   "status_feed": "live",
   "oracle": {
     "git_sha": "e1d70bd",
     "image": "frank-backend:k3s",
     "backend_ready": "1/1",
     "node_disk_used": "53%",
-    "node_load": "0.17 0.20 0.20"
+    "node_load": "0.23 0.18 0.18"
   },
   "pods": [
     {
@@ -48,14 +48,14 @@
   ],
   "lan_gpu": "down",
   "agentops": {
-    "ts": "2026-09-03T04:45:20.498426+00:00",
+    "ts": "2026-09-03T04:48:21.819501+00:00",
     "llm": {
       "calls_24h": 200,
       "ok": 198,
       "success_rate": 0.99,
       "top": {
-        "dashscope": 177,
-        "direct": 21,
+        "dashscope": 178,
+        "direct": 20,
         "ollama": 1,
         "xai": 1
       }
@@ -94,12 +94,12 @@
       },
       "grok_signals_7d": {
         "ok": true,
-        "count": 3939,
+        "count": 3950,
         "buy": 25,
         "sell": 0,
-        "hold": 3914,
+        "hold": 3925,
         "cleared_for_live": 25,
-        "avg_confidence": 0.461,
+        "avg_confidence": 0.46,
         "window_days": 7
       },
       "grok_open_positions": []
@@ -113,27 +113,27 @@
       "graph_last_30d": []
     },
     "content": {
-      "posts_24h": 75,
-      "ok": 50,
+      "posts_24h": 69,
+      "ok": 47,
       "by_platform": {
-        "telegram": {
-          "ok": 4,
-          "fail": 2
-        },
         "linkedin": {
           "ok": 0,
-          "fail": 7
+          "fail": 6
         },
         "discord": {
           "ok": 0,
-          "fail": 10
+          "fail": 8
+        },
+        "telegram": {
+          "ok": 3,
+          "fail": 2
         },
         "facebook": {
-          "ok": 21,
+          "ok": 20,
           "fail": 3
         },
         "instagram": {
-          "ok": 25,
+          "ok": 24,
           "fail": 3
         }
       }
