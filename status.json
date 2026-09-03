@@ -1,12 +1,12 @@
 {
-  "ts": "2026-09-03T11:57:07.896174+00:00",
+  "ts": "2026-09-03T12:00:16.425458+00:00",
   "status_feed": "live",
   "oracle": {
     "git_sha": "e1d70bd",
     "image": "frank-backend:k3s",
     "backend_ready": "1/1",
     "node_disk_used": "53%",
-    "node_load": "0.04 0.15 0.15"
+    "node_load": "0.19 0.17 0.15"
   },
   "pods": [
     {
@@ -48,16 +48,16 @@
   ],
   "lan_gpu": "down",
   "agentops": {
-    "ts": "2026-09-03T11:57:05.955638+00:00",
+    "ts": "2026-09-03T12:00:13.328916+00:00",
     "llm": {
       "calls_24h": 200,
-      "ok": 197,
-      "success_rate": 0.985,
+      "ok": 198,
+      "success_rate": 0.99,
       "top": {
         "dashscope": 168,
-        "direct": 29,
-        "xai": 2,
-        "ollama": 1
+        "direct": 30,
+        "ollama": 1,
+        "xai": 1
       }
     },
     "cost": {
@@ -94,10 +94,10 @@
       },
       "grok_signals_7d": {
         "ok": true,
-        "count": 5485,
+        "count": 5497,
         "buy": 118,
         "sell": 0,
-        "hold": 5367,
+        "hold": 5379,
         "cleared_for_live": 118,
         "avg_confidence": 0.464,
         "window_days": 7
@@ -109,13 +109,21 @@
       "monthly_cap_usd": 30.0,
       "daily_cap_usd": 5.0,
       "ads_live": false,
-      "account_funded": null,
-      "graph_last_30d": null
+      "account_funded": true,
+      "graph_last_30d": []
     },
     "content": {
-      "posts_24h": 138,
-      "ok": 118,
+      "posts_24h": 142,
+      "ok": 122,
       "by_platform": {
+        "facebook": {
+          "ok": 63,
+          "fail": 3
+        },
+        "instagram": {
+          "ok": 58,
+          "fail": 8
+        },
         "telegram": {
           "ok": 1,
           "fail": 2
@@ -124,14 +132,6 @@
           "ok": 0,
           "fail": 4
         },
-        "facebook": {
-          "ok": 61,
-          "fail": 3
-        },
-        "instagram": {
-          "ok": 56,
-          "fail": 8
-        },
         "buffer": {
           "ok": 0,
           "fail": 3
@@ -139,8 +139,8 @@
       }
     },
     "eval": {
-      "pre_publish_avg_composite": 0.682,
-      "pre_publish_scored": 153,
+      "pre_publish_avg_composite": 0.683,
+      "pre_publish_scored": 155,
       "pre_publish_gate_active": 0
     },
     "failures": {
