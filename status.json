@@ -1,12 +1,12 @@
 {
-  "ts": "2026-09-03T12:10:03.522775+00:00",
+  "ts": "2026-09-03T12:21:32.143568+00:00",
   "status_feed": "live",
   "oracle": {
     "git_sha": "e1d70bd",
     "image": "frank-backend:k3s",
     "backend_ready": "1/1",
     "node_disk_used": "53%",
-    "node_load": "0.03 0.11 0.15"
+    "node_load": "0.48 1.45 1.08"
   },
   "pods": [
     {
@@ -48,16 +48,15 @@
   ],
   "lan_gpu": "down",
   "agentops": {
-    "ts": "2026-09-03T12:09:27.007928+00:00",
+    "ts": "2026-09-03T12:21:28.976147+00:00",
     "llm": {
       "calls_24h": 200,
-      "ok": 197,
-      "success_rate": 0.985,
+      "ok": 198,
+      "success_rate": 0.99,
       "top": {
         "dashscope": 168,
-        "direct": 29,
-        "xai": 2,
-        "ollama": 1
+        "direct": 30,
+        "xai": 2
       }
     },
     "cost": {
@@ -94,12 +93,12 @@
       },
       "grok_signals_7d": {
         "ok": true,
-        "count": 5531,
+        "count": 5579,
         "buy": 118,
         "sell": 0,
-        "hold": 5413,
+        "hold": 5461,
         "cleared_for_live": 118,
-        "avg_confidence": 0.464,
+        "avg_confidence": 0.463,
         "window_days": 7
       },
       "grok_open_positions": []
@@ -109,28 +108,28 @@
       "monthly_cap_usd": 30.0,
       "daily_cap_usd": 5.0,
       "ads_live": false,
-      "account_funded": true,
-      "graph_last_30d": []
+      "account_funded": null,
+      "graph_last_30d": null
     },
     "content": {
-      "posts_24h": 142,
-      "ok": 122,
+      "posts_24h": 146,
+      "ok": 124,
       "by_platform": {
         "facebook": {
-          "ok": 63,
+          "ok": 64,
           "fail": 3
         },
         "instagram": {
-          "ok": 58,
+          "ok": 59,
           "fail": 8
         },
         "telegram": {
           "ok": 1,
-          "fail": 2
+          "fail": 3
         },
         "discord": {
           "ok": 0,
-          "fail": 4
+          "fail": 5
         },
         "buffer": {
           "ok": 0,
@@ -140,7 +139,7 @@
     },
     "eval": {
       "pre_publish_avg_composite": 0.683,
-      "pre_publish_scored": 155,
+      "pre_publish_scored": 156,
       "pre_publish_gate_active": 0
     },
     "failures": {
