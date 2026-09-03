@@ -1,12 +1,12 @@
 {
-  "ts": "2026-09-03T01:03:11.899688+00:00",
+  "ts": "2026-09-03T01:18:37.362069+00:00",
   "status_feed": "live",
   "oracle": {
     "git_sha": "ccacc4d",
     "image": "frank-backend:k3s",
     "backend_ready": "1/1",
     "node_disk_used": "53%",
-    "node_load": "0.57 0.51 0.45"
+    "node_load": "0.13 0.57 0.65"
   },
   "pods": [
     {
@@ -48,15 +48,15 @@
   ],
   "lan_gpu": "down",
   "agentops": {
-    "ts": "2026-09-03T01:03:09.578118+00:00",
+    "ts": "2026-09-03T01:18:35.679171+00:00",
     "llm": {
       "calls_24h": 200,
-      "ok": 176,
-      "success_rate": 0.88,
+      "ok": 183,
+      "success_rate": 0.915,
       "top": {
-        "dashscope": 153,
-        "direct": 31,
-        "ollama": 15,
+        "dashscope": 158,
+        "direct": 34,
+        "ollama": 7,
         "xai": 1
       }
     },
@@ -94,12 +94,12 @@
       },
       "grok_signals_7d": {
         "ok": true,
-        "count": 3160,
+        "count": 3214,
         "buy": 0,
         "sell": 0,
-        "hold": 3160,
+        "hold": 3214,
         "cleared_for_live": 0,
-        "avg_confidence": 0.46,
+        "avg_confidence": 0.459,
         "window_days": 7
       },
       "grok_open_positions": []
@@ -109,25 +109,13 @@
       "monthly_cap_usd": 30.0,
       "daily_cap_usd": 5.0,
       "ads_live": false,
-      "account_funded": true,
-      "graph_last_30d": []
+      "account_funded": null,
+      "graph_last_30d": null
     },
     "content": {
-      "posts_24h": 69,
-      "ok": 39,
+      "posts_24h": 66,
+      "ok": 37,
       "by_platform": {
-        "facebook": {
-          "ok": 15,
-          "fail": 3
-        },
-        "instagram": {
-          "ok": 19,
-          "fail": 3
-        },
-        "buffer": {
-          "ok": 0,
-          "fail": 1
-        },
         "linkedin": {
           "ok": 0,
           "fail": 9
@@ -139,6 +127,14 @@
         "discord": {
           "ok": 0,
           "fail": 12
+        },
+        "facebook": {
+          "ok": 14,
+          "fail": 3
+        },
+        "instagram": {
+          "ok": 18,
+          "fail": 3
         }
       }
     },
