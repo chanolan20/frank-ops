@@ -1,12 +1,12 @@
 {
-  "ts": "2026-09-03T10:49:04.084623+00:00",
+  "ts": "2026-09-03T10:52:03.857361+00:00",
   "status_feed": "live",
   "oracle": {
     "git_sha": "e1d70bd",
     "image": "frank-backend:k3s",
     "backend_ready": "1/1",
     "node_disk_used": "53%",
-    "node_load": "2.72 1.55 0.71"
+    "node_load": "0.23 0.94 0.62"
   },
   "pods": [
     {
@@ -48,67 +48,7 @@
   ],
   "lan_gpu": "down",
   "agentops": {
-    "trading": {
-      "mode": "live",
-      "live": true,
-      "killed": false,
-      "live_pnl": 0.0,
-      "paper_pnl": 0.0,
-      "daily_loss": 0.0,
-      "max_daily_loss": 5.0,
-      "trades_today": 0,
-      "caps": {
-        "per_trade": 1.0,
-        "exposure": 10.0,
-        "daily_loss": 5.0
-      },
-      "grok_signals_7d": {
-        "ok": true,
-        "count": 5247,
-        "buy": 118,
-        "sell": 0,
-        "hold": 5129,
-        "cleared_for_live": 118,
-        "avg_confidence": 0.464,
-        "window_days": 7
-      },
-      "grok_open_positions": []
-    },
-    "content": {
-      "posts_24h": 88,
-      "ok": 69,
-      "by_platform": {
-        "linkedin": {
-          "ok": 0,
-          "fail": 2
-        },
-        "facebook": {
-          "ok": 35,
-          "fail": 4
-        },
-        "instagram": {
-          "ok": 33,
-          "fail": 6
-        },
-        "telegram": {
-          "ok": 1,
-          "fail": 2
-        },
-        "discord": {
-          "ok": 0,
-          "fail": 4
-        },
-        "buffer": {
-          "ok": 0,
-          "fail": 1
-        }
-      }
-    },
-    "eval": {
-      "pre_publish_avg_composite": 0.678,
-      "pre_publish_scored": 126,
-      "pre_publish_gate_active": 0
-    },
+    "ts": "2026-09-03T10:52:01.709458+00:00",
     "llm": {
       "calls_24h": 200,
       "ok": 198,
@@ -138,6 +78,32 @@
       },
       "over": false
     },
+    "trading": {
+      "mode": "live",
+      "live": true,
+      "killed": false,
+      "live_pnl": 0.0,
+      "paper_pnl": 0.0,
+      "daily_loss": 0.0,
+      "max_daily_loss": 5.0,
+      "trades_today": 0,
+      "caps": {
+        "per_trade": 1.0,
+        "exposure": 10.0,
+        "daily_loss": 5.0
+      },
+      "grok_signals_7d": {
+        "ok": true,
+        "count": 5257,
+        "buy": 118,
+        "sell": 0,
+        "hold": 5139,
+        "cleared_for_live": 118,
+        "avg_confidence": 0.464,
+        "window_days": 7
+      },
+      "grok_open_positions": []
+    },
     "ads": {
       "month_committed_usd": 0.0,
       "monthly_cap_usd": 30.0,
@@ -145,6 +111,41 @@
       "ads_live": false,
       "account_funded": null,
       "graph_last_30d": null
+    },
+    "content": {
+      "posts_24h": 87,
+      "ok": 69,
+      "by_platform": {
+        "linkedin": {
+          "ok": 0,
+          "fail": 1
+        },
+        "facebook": {
+          "ok": 35,
+          "fail": 4
+        },
+        "instagram": {
+          "ok": 33,
+          "fail": 6
+        },
+        "telegram": {
+          "ok": 1,
+          "fail": 2
+        },
+        "discord": {
+          "ok": 0,
+          "fail": 4
+        },
+        "buffer": {
+          "ok": 0,
+          "fail": 1
+        }
+      }
+    },
+    "eval": {
+      "pre_publish_avg_composite": 0.678,
+      "pre_publish_scored": 126,
+      "pre_publish_gate_active": 0
     },
     "failures": {
       "total": null,
