@@ -1,5 +1,5 @@
 {
-  "ts": "2026-09-03T06:57:22.672054+00:00",
+  "ts": "2026-09-03T07:00:23.125335+00:00",
   "status_feed": "live",
   "oracle": {
     "git_sha": "Failed to add the host to the list of known hosts (/Users/og/.ssh/known_hosts).\nLoad key \"/Users/og/.ssh/oci-frank\": Permission denied\nubuntu@129.213.148.144: Permission denied (publickey).",
@@ -27,10 +27,10 @@
       },
       "grok_signals_7d": {
         "ok": true,
-        "count": 4417,
+        "count": 4427,
         "buy": 25,
         "sell": 0,
-        "hold": 4392,
+        "hold": 4402,
         "cleared_for_live": 25,
         "avg_confidence": 0.451,
         "window_days": 7
@@ -38,11 +38,11 @@
       "grok_open_positions": []
     },
     "content": {
-      "posts_24h": 75,
-      "ok": 57,
+      "posts_24h": 77,
+      "ok": 59,
       "by_platform": {
         "instagram": {
-          "ok": 29,
+          "ok": 30,
           "fail": 3
         },
         "linkedin": {
@@ -58,14 +58,14 @@
           "fail": 6
         },
         "facebook": {
-          "ok": 26,
+          "ok": 27,
           "fail": 3
         }
       }
     },
     "eval": {
-      "pre_publish_avg_composite": 0.672,
-      "pre_publish_scored": 111,
+      "pre_publish_avg_composite": 0.673,
+      "pre_publish_scored": 114,
       "pre_publish_gate_active": 0
     },
     "llm": {
@@ -73,8 +73,8 @@
       "ok": 198,
       "success_rate": 0.99,
       "top": {
-        "dashscope": 161,
-        "direct": 37,
+        "dashscope": 163,
+        "direct": 35,
         "ollama": 1,
         "xai": 1
       }
