@@ -1,12 +1,12 @@
 {
-  "ts": "2026-09-03T12:00:16.425458+00:00",
+  "ts": "2026-09-03T12:03:16.499060+00:00",
   "status_feed": "live",
   "oracle": {
     "git_sha": "e1d70bd",
     "image": "frank-backend:k3s",
     "backend_ready": "1/1",
     "node_disk_used": "53%",
-    "node_load": "0.19 0.17 0.15"
+    "node_load": "0.24 0.26 0.19"
   },
   "pods": [
     {
@@ -48,7 +48,7 @@
   ],
   "lan_gpu": "down",
   "agentops": {
-    "ts": "2026-09-03T12:00:13.328916+00:00",
+    "ts": "2026-09-03T12:03:13.243489+00:00",
     "llm": {
       "calls_24h": 200,
       "ok": 198,
@@ -94,10 +94,10 @@
       },
       "grok_signals_7d": {
         "ok": true,
-        "count": 5497,
+        "count": 5509,
         "buy": 118,
         "sell": 0,
-        "hold": 5379,
+        "hold": 5391,
         "cleared_for_live": 118,
         "avg_confidence": 0.464,
         "window_days": 7
