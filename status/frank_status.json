@@ -1,8 +1,8 @@
 {
-  "ts": "2026-10-11T04:19:05.657334+00:00",
+  "ts": "2026-10-11T04:49:48.951584+00:00",
   "host": "mac",
   "groktopus": {
-    "equity": 13.38,
+    "equity": 13.39,
     "mandate": "LIVE"
   },
   "trading_mode": "live"
